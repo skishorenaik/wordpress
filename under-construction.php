@@ -23,7 +23,7 @@
 <!-- wp_head() -->
 <?php wp_head(); ?>
 </head>
-
+<?php echo "I have done some changes here..." ?>
 <?php 
 	$translate['days'] 		= mfn_opts_get('translate') ? mfn_opts_get('translate-days','days') : __('days','betheme');
 	$translate['hours'] 	= mfn_opts_get('translate') ? mfn_opts_get('translate-hours','hours') : __('hours','betheme');
